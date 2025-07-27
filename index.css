@@ -1,0 +1,64 @@
+body {
+  background-color: #faf9f6;
+  display: flex;
+  flex-direction: column;
+  min-height: 95vh;
+  margin: 50px 50px 0px 50px;
+}
+
+.main {
+  flex: 1;
+}
+
+.logo {
+  width: 45%;
+}
+
+h1 {
+  font-size: 5rem;
+}
+
+/* Fix image styling */
+.tittleimage {
+  width: 100%;
+  height: auto;
+  margin-top: 20px;
+  object-fit: cover;
+  float: none;
+}
+
+/* Card base styles */
+.card {
+  width: 45%;
+}
+
+/* Flexbox for cards */
+.card-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  flex-wrap: wrap; /* Allows wrapping on smaller screens */
+}
+
+footer {
+  text-align: right;
+  color: midnightblue;
+}
+
+/* Media query for responsiveness */
+@media (max-width: 680px) 
+{
+  .logo {
+    width: 100px;
+  }
+
+  h1 {
+    font-size: 3rem;
+    text-align: center;
+  }
+
+  .card {
+    width: 100%;
+    margin
+  }
+}
